@@ -17,4 +17,5 @@ if password:
     st.code(password, language=None)
     st.caption(f"{PASSWORD_LENGTH} characters")
 else:
-    st.info("Select **Generate password** to create a password.")
+    #st.info("Select **Generate password** to create a password.")
+    pass
