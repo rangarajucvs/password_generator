@@ -13,7 +13,7 @@ if st.button("Generate password", type="primary"):
 
 password = st.session_state.get("password")
 if password:
-    st.success(f"Generated password: {password}")
+    #st.success(f"Generated password: {password}")
     st.code(password, language=None)
     st.caption(f"{PASSWORD_LENGTH} characters")
 else:
